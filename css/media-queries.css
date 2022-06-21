@@ -1,5 +1,5 @@
 /*Mobile*/
-@media screen and (max-width:339px) {
+@media screen and (max-width:500px) {
     body {
         width:100%;
 
@@ -56,13 +56,19 @@ h1 {
     margin-bottom: 5em;
     }
 }
-@media only screen and (min-width: 889px) {
-
-    .nav-links {
-
+@media only screen and (min-width: 500px) {
+    .hidden-on-desktop {
+        display: none;
     }
 
-    ul {
+    .nav-links {
+        display: flex;
+        justify-content: flex-end;
+        align-self: flex-end;
+    }
+
+    ul { text-decoration:none;
+        list-style:none
 
     }
 
