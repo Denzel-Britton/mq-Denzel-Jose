@@ -1,0 +1,40 @@
+/*Mobile*/
+@media screen and (max-width:339px) {
+    body {
+        width:100%;
+
+    }
+
+    .nav-links {
+        display:flex;
+        flex-direction:column;
+    ;
+    }
+
+    ul {
+        text-decoration:none;
+        list-style:none}
+
+    li {
+        background-color:lightgrey;
+        width: 339px;
+        height: 40px;
+        padding:
+        margin-top:8px;
+    }
+
+    .alert-info {
+        background-color:#CCFEFF;
+        height: 30px;
+        width:calc(100% - 10px);
+        margin: 5px;
+        border: 1px black solid;
+        text-decoration: none;}
+
+
+    .header-img img {
+        height: 224px;
+        width: 339px;
+
+    }
+}
